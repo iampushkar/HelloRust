@@ -61,3 +61,11 @@ This code snip will not even compile and give error that enigma variable is un-i
 This will be executed as Rust can figure out at Compile time that in case the if block isn't executed then variable initialization will happen in the else block.
 
 In case there is just the If block then Rust will throw the error that the variable is possibly un-initialized.
+
+## Functions
+Here is the snippet for a Function
+```rust
+fn do_sum(num1 : i32, num2 : i32) -> i32 {
+  return num1 + num2;
+}
+```
